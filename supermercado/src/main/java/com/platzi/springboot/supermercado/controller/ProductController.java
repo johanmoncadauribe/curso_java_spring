@@ -2,6 +2,8 @@ package com.platzi.springboot.supermercado.controller;
 
 import java.util.*;
 
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -17,6 +19,8 @@ public class ProductController {
 	@Autowired
 	private ProductService productService;
 
+	@ApiOperation("Get all supermarket products")
+	@ApiResponse(code = 200, message = "OK")
 	@GetMapping(path="/getAll")
 	public ResponseEntity<List<Product>> getAll(){
 		try {
