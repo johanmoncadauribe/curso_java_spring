@@ -1,4 +1,4 @@
-package com.platzi.springboot.supermercado.controller;
+package com.platzi.springboot.supermercado.domain.controller;
 
 import java.util.*;
 

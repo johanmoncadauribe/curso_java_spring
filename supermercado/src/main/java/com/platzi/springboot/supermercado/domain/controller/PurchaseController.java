@@ -1,4 +1,4 @@
-package com.platzi.springboot.supermercado.controller;
+package com.platzi.springboot.supermercado.domain.controller;
 
 import com.platzi.springboot.supermercado.domain.domain.Purchase;
 import com.platzi.springboot.supermercado.domain.service.PurchaseService;
